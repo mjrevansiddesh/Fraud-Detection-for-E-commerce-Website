@@ -1,14 +1,14 @@
-Data Dictionary:
-"Fraud_Data" - information about each user first transaction.
+##Data Dictionary:
+###"Fraud_Data" - information about each user first transaction.
 
 Columns:
-user_id : Id of the user. Unique by user
+- user_id : Id of the user. Unique by user
 
-signup_time : the time when the user created her account (GMT time)
+- signup_time : the time when the user created her account (GMT time)
 
-purchase_time : the time when the user bought the item (GMT time)
+- purchase_time : the time when the user bought the item (GMT time)
 
-purchase_value : the cost of the item purchased (USD)
+- purchase_value : the cost of the item purchased (USD)
 
 device_id : the device id. You can assume that it is unique by device. I.e., transactions
 with the same device ID means that the same physical device was used to buy
